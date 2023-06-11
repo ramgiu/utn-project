@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ramgiu | Diseño Gráfico</title>
+
+		<!--METATAGS-->
+
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; ISO-8859-1">
+		<META NAME="DC.Language" SCHEME="RFC1766" CONTENT="Spanish">
+		<META NAME="AUTHOR" CONTENT="Ramiro Giunta">
+		<META NAME="REPLY-TO" CONTENT="ramgiu@gmail.com">
+		<LINK REV="made" href="mailto:ramgiu@gmail.com">
+		<META NAME="DESCRIPTION" CONTENT="Estudio de Diseño Gráfico y Web">
+		<META NAME="KEYWORDS" CONTENT="diseño,gráfico,web,tipografía,packaging,ilustración,fotografía,edición">
+		<META NAME="Resource-type" CONTENT="Document">
+		<META NAME="Revisit-after" CONTENT="7 days">
+		<META NAME="robots" content="ALL">
+
+		<!--FIN METATAGS-->
+
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="icon" type="image/png" href="img/favicon.png">
+		<script type="text/javascript" src="js/modernizr.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/responsiveslides.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
+
+		<!--SLIDER-->
+
+		<script type="text/javascript">
+				 $(function(){
+	      $('#slider').responsiveSlides();
+	    });
+
+		</script>
+
+		<!--FIN SLIDER-->
+
+	</head>
+	
+	<body>
+
+		<!--HEADER-->
+
+		<header id="cabecera">
+			<div id="logo">
+				<a href="index.html"><img src="img/logo.png" alt="logo" class="logo_estudio animated tada"></a>
+			</div>
+			<nav id="navegador">
+				<ul id="menu">
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="quienes_somos.html">Acerca de mí</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!--FIN HEADER-->
+
+		<section id="primera_division">
+
+		<!--SECCION SLIDER-->
+
+			<section id="contenedor1">
+				<ul id="slider">
+     				<li><img src="img/slider_1.png" alt=""></li>
+				    <li><img src="img/slider_2.jpg" alt=""></li>
+				    <li><img src="img/slider_3.png" alt=""></li>
+				  </ul>
+			</section>
+
+		<!--FIN SECCION SLIDER-->
+
+		<!--SECCION CATEGORIAS-->
+
+			<section id="contenedor2">
+				<div id="centro">
+					<h2 class="titulo"><a href="portfolio.html">- Categorías -</a></h1>
+					<article class="tp1"><a href="portfolio.html"></a></article>
+					<article class="tp2"><a href="portfolio.html"></a></article>
+					<article class="tp3"><a href="portfolio.html"></a></article>
+				</div>
+			</section>
+		
+		<!--FIN SECCION CATEGORIAS-->
+
+		<!--SECCION IDEALES-->
+
+			<section id="estudio">
+				<div id="centro2">
+					<article class="icono">
+						<img class="iconos" src="img/idea.png" alt="lamparita">
+						<h2 class="leyenda">Ideas originales</h2>
+						<p class="leyenda_parrafo">Nuestra innovación es algo que <br> hace que los proyectos que <br> desarrollamos sean únicos <br> y se distingan del resto.</p>
+					</article>
+					<article class="icono">
+						<img class="iconos" src="img/telefono-inteligente.png" alt="smartphone">
+						<h2 class="leyenda">Diseños adaptables</h2>
+						<p class="leyenda_parrafo">Con nuestros diseños adaptables <br> vas a poder disfrutar de tu web <br> desde cualquier dispositivo, <br> sin importar el tamaño de tu pantalla.</p>
+					</article>
+					<article class="icono3">
+						<img class="iconos" src="img/reloj.png" alt="reloj">
+						<h2 class="leyenda">Todo a tiempo</h2>
+						<p class="leyenda_parrafo">Los trabajos realizados siempre <br> son entregados en tiempo y forma. <br> Somos concientes de la responsabilidad que conlleva hacerse cargo de un proyecto.</p>
+					</article>
+				</div>
+			</section>
+
+		<!--FIN SECCION IDEALES-->
+
+		<!--SECCION CONTACTO-->
+
+			<section id="contacto">
+				<h2 class="titulo3">- Contactanos -</h1>
+				<form class="form_index" action="contacto_consulta.php" method="post">
+					<div class="izq">
+						<label class="label_index">Nombre</label>
+						<br>
+						<input class="input_index" type="text" name="nombre" required autofocus autocomplete="off">
+						<br>
+						<br>
+						<label class="label_index">Email</label>
+						<br>
+						<input class="input_index" type="email" name="email" placeholder="ejemplo@gmail.com" required>
+						<br>
+						<br>
+						<label class="label_index">Teléfono</label>
+						<br>
+						<input class="input_index" type="tel" name="telefono" required autocomplete="off">
+						<br>
+					</div>
+					<div class="der">
+						<label class="label_index">Mensaje</label>
+						<textarea class="textarea_index" name="mensaje" required></textarea>
+						<input class="boton" type="submit" name="enviar" value="Enviar">
+						<input class="boton resetear" type="reset" name="borrar" value="Borrar">
+					</div>
+				</form>
+			</section>
+
+		<!--FIN SECCION IDEALES-->
+
+		</section>
+
+		<!--FOOTER-->
+
+		<footer id="footer_index">
+			<div class="elementos_footer">
+			<p class="ramgiu_footer">Todos los derechos reservados - Ramgiu&copy</p>
+			<a href="#"><img src="img/facebook.png" alt="facebook" class="redes_sociales"></a>
+			<a href="#"><img src="img/twitter.png" alt="facebook" class="redes_sociales"></a>
+			<a href="#"><img src="img/pinterest.png" alt="facebook" class="redes_sociales"></a>
+			<a href="#"><img src="img/vimeo.png" alt="facebook" class="redes_sociales"></a>
+			</div>
+		</footer>
+
+		<!--FIN FOOTER-->
+
+	</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ramgiu | Contacto</title>
+		<meta charset ="UTF-8">
+		<link rel="stylesheet" text="text/css" href="css/estilos.css">
+		<link rel="stylesheet" text="text/css" href="css/animate.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/png" href="img/favicon.png">
+	</head>
+	<body>
+
+		<!--HEADER/NAV-->
+
+		<header id="cabecera">
+			<div id="logo">
+				<a href="index.html"><img src="img/logo.png" alt="logo" class="logo_estudio animated tada"></a>
+			</div>
+			<nav id="navegador">
+				<ul>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="quienes_somos.html">Acerca de mí</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!--FIN HEADER/NAV-->
+
+		<section id="primera_division_contacto">
+
+			<!--SECCION PRINCIPAL-->
+
+			<section id="contenedor">
+					<div id="arriba">
+						<h1 class="titulo_principal animated jello infinite">- Contactanos -</h1>
+					</div>
+					<div id="izquierda">
+						<form class="form_contacto" action="contacto_consulta.php" method="post">
+							<label class="label_contacto" for="nombre">Nombre</label> <br>
+							<input class="input_contacto"type="text" name="nombre" autocomplete="off" required autofocus> <br>
+							<label class="label_contacto" for="email">Email</label> <br>
+							<input class="input_contacto" type="email" name="email" placeholder="ejemplo@gmail.com" required> <br>
+							<label class="label_contacto" for="telefono">Teléfono</label> <br>
+							<input class="input_contacto" type="tel" name="telefono" autocomplete="off" required><br>
+							<label class="label_contacto" for="mensaje"> Mensaje</label><br>
+							<textarea class="textarea_contacto" name="mensaje" id="mensaje" cols="30" rows="10"></textarea> <br>
+							<input class="boton" type="submit" value="Enviar" name="enviar">
+							<input class="boton resetear" type="reset" value="Borrar" name="borrar">
+						</form>
+					</div>
+					<div id="derecha">
+						<div class="datos">
+							<p>Av. Álvarez Jonte 5296, CABA</p><br>
+							<p>Tel.: 4896-2346</p>
+						</div>
+						<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m20!1m8!1m3!1d6566.457036090326!2d-58.51589713632124!3d-34.62366505625433!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d-34.6242577!2d-58.5114277!4m3!3m2!1d-34.624256599999995!2d-58.5114339!5e0!3m2!1ses!2sar!4v1462732576364" width="420" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+			</section>
+		</section>
+			
+		<!--FIN SECCION PRINCIPAL-->
+
+		<!--FOOTER-->
+
+		<footer id="pie">
+			<div class="elementos_footer">
+			<p class="ramgiu_footer">Todos los derechos reservados - Ramgiu&copy</p>
+			<a href="#"><img src="img/facebook.png" alt="facebook" class="redes_sociales"></a>
+			<a href="#"><img src="img/twitter.png" alt="facebook" class="redes_sociales"></a>
+			<a href="#"><img src="img/pinterest.png" alt="facebook" class="redes_sociales"></a>
+			<a href="#"><img src="img/vimeo.png" alt="facebook" class="redes_sociales"></a>
+			</div>
+		</footer>
+
+		<!--FIN FOOTER-->
+
+	</body>
+</html>
